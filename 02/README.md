@@ -11,6 +11,8 @@ but also assumes a configured setup:
 It further requires in the main model sets of levels that match the script 
 configuration, e.g. set of raw levels set of finish levels.
 
+the parameters "Linked_Source" and "Creating_bbox" must be exist in the project for generic models
+
 To run it under [RevitPythonShell](https://github.com/architecture-building-systems/revitpythonshell) 
 or [pyRevit](https://github.com/eirannejad/pyRevit) , select a nested void model.
 The script will create a temporary mirror of the link and search through the model
